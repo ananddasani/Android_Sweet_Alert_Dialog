@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/underTest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#FA0000"
+        android:text="under text"
+        app:layout_constraintBottom_toTopOf="@+id/errorTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/errorTest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FA0000"
+        android:text="error Text"
+        app:layout_constraintBottom_toTopOf="@+id/successTest"
+        app:layout_constraintEnd_toEndOf="@+id/underTest"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/underTest"
+        app:layout_constraintTop_toBottomOf="@+id/underTest" />
+
+    <Button
+        android:id="@+id/successTest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FA0000"
+        android:text="Success Text"
+        app:layout_constraintBottom_toTopOf="@+id/warningConfirm"
+        app:layout_constraintEnd_toEndOf="@+id/errorTest"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/errorTest"
+        app:layout_constraintTop_toBottomOf="@+id/errorTest" />
+
+    <Button
+        android:id="@+id/warningConfirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FA0000"
+        android:text="Warning Confirm"
+        app:layout_constraintBottom_toTopOf="@+id/warningCancle"
+        app:layout_constraintEnd_toEndOf="@+id/successTest"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/successTest"
+        app:layout_constraintTop_toBottomOf="@+id/successTest" />
+
+    <Button
+        android:id="@+id/warningCancle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#FA0000"
+        android:text="Warning Cancle"
+        app:layout_constraintBottom_toTopOf="@+id/imageTest"
+        app:layout_constraintEnd_toEndOf="@+id/warningConfirm"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/warningConfirm"
+        app:layout_constraintTop_toBottomOf="@+id/warningConfirm" />
+
+    <Button
+        android:id="@+id/imageTest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#FA0000"
+        android:text="Image Text"
+        app:layout_constraintBottom_toTopOf="@+id/progressDialog"
+        app:layout_constraintEnd_toEndOf="@+id/warningCancle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/warningCancle"
+        app:layout_constraintTop_toBottomOf="@+id/warningCancle" />
+
+    <Button
+        android:id="@+id/progressDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FA0000"
+        android:text="Progress Dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageTest"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageTest"
+        app:layout_constraintTop_toBottomOf="@+id/imageTest" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
