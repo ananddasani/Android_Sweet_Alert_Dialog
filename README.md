@@ -1,6 +1,8 @@
 # Android_Sweet_Alert_Dialog
 Using Library of Sweet Anim Dialogs
 
+This topic is a part of [My Complete Andorid Course](https://github.com/ananddasani/Android_Apps)
+
 # Code
 
 #### MainActivity.java
@@ -208,10 +210,11 @@ public class MainActivity extends AppCompatActivity {
 
 # App Highlight
 
-<img src="app_images/Sweet Dialog Code.png" width="1000" /><br>
-
-<img src="app_images/Sweet Dialog App1.png" width="300" /> <img src="app_images/Sweet Dialog App2.png" width="300" /> <img src="app_images/Sweet Dialog App3.png" width="300" /> <br>
-
-<img src="app_images/Sweet Dialog App5.png" width="300" /> <img src="app_images/Sweet Dialog App5.png" width="300" /> <img src="app_images/Sweet Dialog App6.png" width="300" /><br>
-
-<img src="app_images/Sweet Dialog App7.png" width="300" /> <img src="app_images/Sweet Dialog App8.png" width="300" /><br>
+![Sweet Dialog App1](https://user-images.githubusercontent.com/74413402/192094497-0583538f-cbea-4300-bba9-3149ee9ab78f.png)
+![Sweet Dialog App2](https://user-images.githubusercontent.com/74413402/192094503-c306cf6e-0e71-473f-9f38-6b335b460581.png)
+![Sweet Dialog App3](https://user-images.githubusercontent.com/74413402/192094505-260afa64-cab2-4f2d-a75a-1287d500ec4f.png)
+![Sweet Dialog App5](https://user-images.githubusercontent.com/74413402/192094561-282c66a2-8789-4a2d-be2f-8cd6f123e183.png)
+![Sweet Dialog App6](https://user-images.githubusercontent.com/74413402/192094585-00f7badc-e639-4c52-8bfe-9085b7a5777b.png)
+![Sweet Dialog App7](https://user-images.githubusercontent.com/74413402/192094588-30a23464-f09c-479d-9584-2276898093aa.png)
+![Sweet Dialog App8](https://user-images.githubusercontent.com/74413402/192094592-ee548d7b-d9dc-4a27-a478-7e16dcd4ac2f.png)
+![Sweet Dialog Code](https://user-images.githubusercontent.com/74413402/192094594-c81203fd-0b7f-4dc1-8c00-7bf34c356002.png)
